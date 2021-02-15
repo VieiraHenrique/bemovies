@@ -7,10 +7,7 @@
       <div class="header__menu">
         <i @click="toggleMenu" class="fas fa-bars"></i>
         <ul class="header__menu--main" :class="drawer ? 'open' : ''">
-          <form>
-            <input type="text" placeholder="Search for a movie" />
-            <button><i class="fas fa-search"></i></button>
-          </form>
+          <search-bar />
           <li>Featured Movies</li>
           <li class="login">Login</li>
         </ul>
@@ -20,7 +17,9 @@
 </template>
 
 <script>
+import SearchBar from './SearchBar.vue'
 export default {
+  components: { SearchBar },
   data() {
     return {
       drawer: false,

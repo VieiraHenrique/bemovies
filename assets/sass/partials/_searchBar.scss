@@ -1,0 +1,22 @@
+form.searchBar {
+  @media screen and (min-width: 768px) {
+    transform: translateX(1rem);
+  }
+}
+
+input {
+  padding: 0.8rem 3rem;
+  border-radius: 50rem;
+  font-size: 1.5rem;
+}
+
+button {
+  color: #242529;
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: -1rem;
+  transform: translateX(-2rem);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
