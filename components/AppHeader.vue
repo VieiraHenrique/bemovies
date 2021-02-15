@@ -7,10 +7,12 @@
       <div class="header__menu">
         <i @click="toggleMenu" class="fas fa-bars"></i>
         <ul class="header__menu--main" :class="drawer ? 'open' : ''">
-          <li>Featured</li>
-          <li>Genres</li>
-          <li>Register</li>
-          <li>Login</li>
+          <form>
+            <input type="text" placeholder="Search for a movie" />
+            <button><i class="fas fa-search"></i></button>
+          </form>
+          <li>Featured Movies</li>
+          <li class="login">Login</li>
         </ul>
       </div>
     </div>
