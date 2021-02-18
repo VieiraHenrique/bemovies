@@ -10,15 +10,17 @@ export default {
   data() {
     return {
       searchTerm: '',
-    }
+    };
   },
   methods: {
     search: function () {
-      this.$emit('searchMovie', this.searchTerm)
-      this.searchTerm = ''
+      $nuxt.$emit('searchMovie', this.searchTerm);
+      this.$router.push('/');
+      $nuxt.$emit('searchMovie', this.searchTerm);
+      this.searchTerm = '';
     },
   },
-}
+};
 </script>
 
 <style></style>

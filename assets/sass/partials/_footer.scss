@@ -3,6 +3,11 @@
   color: #fff;
   padding: 4rem 0;
 
+  &--title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -53,6 +58,19 @@
       li:hover {
         color: #0dc5dd;
       }
+    }
+  }
+
+  .rules {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 2rem;
+    color: #ccc;
+
+    span {
+      color: #0dc5dd;
+      cursor: pointer;
     }
   }
 }

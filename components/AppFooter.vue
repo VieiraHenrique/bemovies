@@ -2,7 +2,9 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__block">
-        <p><i class="fas fa-film"></i> Be<span>Movies</span></p>
+        <p class="footer--title">
+          <i class="fas fa-film"></i> Be<span>Movies</span>
+        </p>
         <small>&copy; 2021. All rights reserved</small>
       </div>
       <div class="footer__block">
@@ -28,6 +30,10 @@
         <i class="fab fa-tiktok"></i>
       </div>
     </div>
+    <p class="rules">
+      By using this site you agree to and accept our User Agreement, which can
+      be read <span>here</span>.
+    </p>
   </footer>
 </template>
 
