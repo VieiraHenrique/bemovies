@@ -48,6 +48,6 @@ export default {
   target: 'static',
 
   router: {
-    base: '/app/',
+    base: './',
   },
 };
